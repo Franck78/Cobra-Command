@@ -1,0 +1,34 @@
+DATAEAST Cobra Command
+====
+
+Someone gave me a dead Cobra command pcb in mint condition.
+
+I took it as a challenge to fix it. Unlike numerous
+repairs log found everywhere, poking a logic probe
+here and here to find a faulty 'line' was not enough.
+
+This board was exhibiting absolute normal signals everywhere.
+But behavior was totally incoherent.
+
+I started by globally draw on the board what seemed databuses.
+I was puzzled by the absence of RAM connected to the CPU (6809).
+So, I started lots a small postit schematics. Then decided, ok
+there is nothing for this thing, nothing for BAC06, nothing
+for MXC06, well that will not be the first board to reverse.
+
+And I started a spaghetti schematics ;) Because I found right at
+the end of my work the DE-301 schematic very very similar. Probably a lot of
+hours could have been saved.
+
+With that, I redrew following DATAEAST style and now we have
+a full Cobra Command schematic !
+
+Even with the schematic it was difficult to fix it. Line H9-13 E3-1
+was cut. Explanation of the  eratic behavior !
+
+But 5 ram and two rom chip were also dead. 
+
+
+
+
+Franck
